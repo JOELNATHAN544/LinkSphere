@@ -1,0 +1,7 @@
+# Language stats control
+*akefile* linguist-documentation
+*.mk linguist-documentation
+*Makefile* linguist-documentation
+
+# Ignore node_modules for language detection
+mobile-app-version/node_modules/* linguist-vendored
